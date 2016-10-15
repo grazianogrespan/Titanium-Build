@@ -1,0 +1,7 @@
+{
+  "LiveViewEnabled": {
+    "description": "Enable LiveView on Titanium Project",
+    "type": "boolean",
+    "default": false
+  }
+}
