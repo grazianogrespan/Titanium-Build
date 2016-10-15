@@ -13,10 +13,6 @@
             'label': 'Android'
             'submenu': [
               {
-                'label': 'Emulator LiveView'
-                'command': 'titanium-build:run-android-emulators-liveview'
-              }
-              {
                 'label': 'Emulator'
                 'command': 'titanium-build:run-android-emulators'
               }
