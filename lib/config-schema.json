@@ -3,5 +3,44 @@
     "description": "Enable LiveView on Titanium Project",
     "type": "boolean",
     "default": false
+  },
+
+  "Register App": {
+    "description": "Register for Appcelerator Platform services for Titanium projects",
+    "type": "boolean",
+    "default": false
+  },
+
+  "Project Path":{
+    "description": "Path to Titanium Workspace",
+    "type": "string",
+    "default": ""
+  },
+
+  "App Name":{
+    "description": "App Name",
+    "type": "string",
+    "default": ""
+  },
+
+  "App ID":{
+    "description": "App ID",
+    "type": "string",
+    "default": ""
+  },
+
+  "ProjectType": {
+    "description":"Create new project for Alloy or Classic",
+    "type": "object",
+    "properties":{
+      "Alloy":{
+        "type": "boolean",
+        "default": true
+      },
+      "Classic":{
+        "type": "boolean",
+        "default": false
+      }
+    }
   }
 }
